@@ -50,7 +50,7 @@ func main() {
 		log.Fatal(err)
 	}
 
-	req.Header.Set("Authorization", "Bearer 3d60337d2f7e66fca106d315654f5b176fbbcb53d2de493ef360d9b7f93f6b4a")
+	req.Header.Set("Authorization", "Bearer ключ")
 
 	resp, err := client.Do(req)
 	if err != nil {
@@ -74,3 +74,4 @@ func main() {
 		fmt.Printf("%s (%s): $%s\n", asset.Name, asset.Symbol, asset.PriceUSD)
 	}
 }
+
