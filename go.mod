@@ -1,3 +1,3 @@
-module main.go
+module coincap
 
 go 1.24.5
